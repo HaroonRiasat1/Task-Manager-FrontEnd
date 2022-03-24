@@ -25,7 +25,7 @@ const handleApi =() =>{
     })
 }
 return(
-
+<div> 
 <div className="form"> 
      
 
@@ -34,10 +34,11 @@ return(
 <input name="Password" value={password} onChange={handlePassword}  placeholder="Password" type="password"/>
 <button onClick={handleApi}>Login</button>
 
-{/* 
-<p>Don't have an account?<Link to="/Register"> Register</Link> </p> */}
-</div>
 
+
+</div>
+<p>Don't have an account?<Link to="/Register"> Register</Link> </p> 
+</div>
 )
 
 

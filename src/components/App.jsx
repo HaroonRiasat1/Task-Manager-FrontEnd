@@ -13,8 +13,8 @@ function App(){
 
   <div>
        <Header/>
-       <Loginform/>
-       {/* <BrowserRouter>
+
+       <BrowserRouter>
     <Routes>
       <Route path="/" element={<Loginform />}> </Route>
         <Route path="/Register" element={<Registerform />}>  </Route>
@@ -22,7 +22,7 @@ function App(){
      
     </Routes>
   </BrowserRouter>
-        */}
+        
        
        
         </div>
